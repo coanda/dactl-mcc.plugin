@@ -1,0 +1,15 @@
+{
+	"icon": "dactl",
+	"label": "Dactl Measurement Computing Plugin",
+	"description": "Measurement Computing USB DAQ Plugin for Dactl",
+	"license": "MIT",
+	"libre": true,
+	"category": "Apps",
+	"scripts": {
+		"exec": {
+			"label": "Install",
+			"command": "run-as-root -s install.sh"
+		},
+		"status": { "command": "test -f /usr/lib/dactl/plugins/libdactl-mcc-usb.so" }
+	}
+}
