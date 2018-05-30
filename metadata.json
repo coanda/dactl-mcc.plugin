@@ -10,6 +10,6 @@
 			"label": "Install",
 			"command": "run-as-root -s install.sh"
 		},
-		"status": { "command": "test -f /usr/lib/dactl/plugins/libdactl-mcc-usb.so" }
+		"status": { "command": "test -f /usr/local/lib/dactl/plugins/libdactl-usb1208fs.so" }
 	}
 }
