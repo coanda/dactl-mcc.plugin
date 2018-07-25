@@ -50,6 +50,7 @@ make && make install
 sudo mkdir -p /srv/data/dactl
 sudo chown -R `whoami`.$(id -gn `whoami`) /srv/data/dactl
 chmod -R g+w /srv/data/dactl
+cp /usr/local/lib/dactl/plugins/* /usr/local/lib64/dactl/plugins/
 
 # Post install
 ldconfig
